@@ -28,7 +28,7 @@ cursor = connection.cursor()
 # cursor.execute('SELECT * FROM "Track" WHERE "Composer" =%s', ["Queen"])
 
 # Query 7 - if "Any name" exists from the "Artist" table
-cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Black Sabbath"])
+# cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Black Sabbath"])
 
 # fetch the results (multiple)
 results = cursor.fetchall()
